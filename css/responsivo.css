@@ -1,0 +1,374 @@
+.sessao_about .container_about {
+  text-align: center;
+}
+.sessao_about .container_about .button.azul {
+  margin: 0 auto!important;
+  width: 184px;
+  float: none;
+  display: block;
+}
+.sessao_about {
+  padding-bottom: 0;
+}
+
+.lista_3 {
+  margin-top: 0;
+}
+
+@media all and (max-width: 1264px){
+  .w-nav[data-collapse="medium"] .w-nav-menu {
+      display: none;
+  }
+  .w-nav[data-collapse="medium"] .w-nav-button {
+      display: block;
+  }
+  .menu_button {
+      width: 75px;
+      height: 75px;
+      padding-top: 17px;
+      padding-left: 15px;
+      font-size: 45px;
+  }
+  .logo_menu {
+  margin-top: 19px;
+  }
+  .logo_menu.w--current {
+  margin-top: 21px;
+  }
+  .icon_navbar {
+  color: white;
+  }
+  .nav_menu {
+  margin-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  float: none;
+  background-color: #0294ca;
+  }
+  .menu_button {
+  width: 75px;
+  height: 75px;
+  padding-top: 17px;
+  padding-left: 15px;
+  font-size: 45px;
+  }
+  .menu_button.w--open {
+  width: 76px;
+  height: 75px;
+  padding-top: 17px;
+  padding-left: 15px;
+  background-color: #0294ca;
+  font-size: 45px;
+  }
+  .coluna_navmenu {
+  padding-right: 0px;
+  }
+  .w-nav-overlay .nav_menu_principal li ul {
+    background-color: transparent;
+    width: 100%;
+  }
+  .w-nav-overlay li ul li a {
+    text-transform: uppercase;;
+  }
+  
+  .w-nav-overlay .nav_menu_principal {
+    padding: 30px;
+  }
+  .w--nav-menu-open {
+    text-align: left;
+  }
+  .link_menu {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  .link_menu:hover {
+    color: #0294ca;
+    background-color: #ffffff;
+  }
+}
+
+@media all and (max-width: 991px){
+  .link_menu {
+    background-color: transparent;
+  }
+
+  .container_painelaplicacoes .w-col.w-col-6 {
+    width: 100%;
+  }
+  .container_painelaplicacoes .w-col.w-col-6 .nav-tabs {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .container_painelaplicacoes .w-col.w-col-6 .nav-tabs li {
+    width: 33.33%;
+  }
+  .container_painelaplicacoes .w-col.w-col-6 .nav-tabs li .tituloAbas {
+    width: 100%;
+    text-align: center;
+  }
+  .container_painelaplicacoes .w-col.w-col-6 .nav-tabs li .tituloAbas br {
+    display: none;
+  }
+
+  .func p.descricao {
+    margin-top: 0;
+  }
+  .func .h3_title_funcionalidades {
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  .coluna_branca_plano {
+    max-width: 230px;
+    clear: both;
+    margin: 0 auto 50px;
+    display: block;
+    float: none;
+  }
+  .muda-plano {
+    margin-bottom: 10px;
+  }
+
+  .w-section.footer .w-col.w-col-2:first-child, .w-section.footer .w-col.w-col-2:last-child {
+    display: none;
+  }
+  .w-section.footer .w-col.w-col-2 {
+    margin-left: 10%;
+    width: 25%;
+  }
+
+  .hero {
+    height: 100vh;
+  }
+  .w-container.frases {
+    margin-top: 20vh;
+  }
+
+  .w-container.frases.secundaria {
+    margin-top: 10vh;  
+  }
+
+  .etapa {
+    width: 33.3333%!important;
+    margin-top: 30px;
+  }
+  .active .tit-etapa::before, .active .tit-etapa::after {
+    display: none;
+  }
+
+  .w-row.comparativo-plano-anual {
+    overflow: auto;
+    width: 900px;
+    margin-left: -57px;
+  }
+  .coluna_branca_plano {
+      clear: none ;
+      margin: 0;
+      display: block;
+      float: left;
+  }
+
+  .coluna_vagas, .coluna_form_trabalhe {
+    width: 100%;
+    clear: both;
+  }
+  .coluna_form_trabalhe {
+    margin-top: 60px;
+  }
+
+  .logo_caseListagem {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .porcentagem_case {
+    margin: 0px!important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    display: block;
+  }
+  .case {
+    margin-bottom: 30px;
+  }
+  .secundaria.cases .button.verde.cta {
+    margin: 0 auto!important;
+    display: block;
+    width: 190px;
+  }
+
+  .container_parceria .escuro.line {
+    margin: 20px 0 0!important;
+    padding: 0 40px;
+  }
+  .seja_parceiro {
+    margin-top: 20px;
+  }
+
+  .etapa {
+    width: 25%!important;
+  }
+}
+
+@media all and (max-width: 870px){
+  .w-row.comparativo-plano-anual {
+    width: 845px;
+    margin-left: -30px;
+  }
+}
+
+@media all and (max-width: 770px){
+  .txt-ajuda {
+    text-align: center;
+  }
+  .logo_menu {
+    float: none;
+    display: block;
+    max-width: 200px;
+  }
+  .telefone_top {
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+  }
+  .telefone_top strong {
+    float: none;
+  }
+}
+
+@media all and (max-width: 767px){
+  .w-container.frases img.arrow, #experimente img.arrow {
+    display: none;
+  }
+
+  .func {
+    padding-left: 20px;
+  }
+  .row_funcionalidades .coluna_padding:first-child {
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  .w-section.footer .w-col.w-col-2 {
+    width: 80%;
+  }
+
+  .sessao_textos_rodape, .coluna_social {
+      height: auto;
+  }
+  .coluna_social .w-col-6 {
+    float: left;
+    width: auto;
+  }
+  .coluna_social .w-col-4 {
+    float: right;
+    width: auto;
+    margin-top: 6px;
+    padding-left: 0px;
+  }
+  .coluna_social .coluna_rodape {
+    display: none;
+  }
+
+  .container_depoimentos .w-slide {
+    text-align: center;
+  }
+  .container_depoimentos .w-slide img {
+    max-width: 120px;
+    margin-bottom: 30px;
+  }
+
+  .w-row.comparativo-plano-anual {
+    margin: 0;
+    width: 100%;
+  }
+  .container_funcionalidades.planos .coluna_branca_plano {
+    clear: both;
+    display: block;
+    margin: 0 auto 30px;
+    float: none;
+  }
+
+  #motivos {
+    margin-top: 60px;
+  }
+
+  .page-trial .coluna_footer {
+    width: 100%;
+  }
+  .page-trial .coluna_footer p {
+    text-align: center;
+  }
+
+  .depoimento-last {
+    margin-top: 60px;
+  }
+
+  .icon-porque-lahar {
+    margin: 0px auto;
+    display: block;
+    float: none;
+  }
+  .titulo_porque {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 680px){
+  .mapa-empresa, .mapa-empresa iframe {
+    width: 100%;
+  }
+  .endereco-empresa {
+    width: 100%;
+    margin: 20px 0 0 !important;
+    text-align: center;
+    float: left;
+    clear: both;
+  }
+}
+
+@media all and (max-width: 598px){
+  .sessao_about .container_about .button.azul {
+    margin: 0 0 0 160px;
+  }
+}
+
+@media all and (max-width: 559px){
+  .sessao_about .container_about .button.azul {
+    margin: 0 0 0 160px;
+  }
+}
+
+@media all and (max-width: 540px){
+  .container_painelaplicacoes .w-col.w-col-6 .nav-tabs li {
+    width: 100%;
+    padding: 0;
+  }
+
+  .coluna_social .w-col-6, .coluna_social .w-col-4 {
+    width: 100%;
+    margin: 0;
+  }
+  .coluna_social .w-col-6 .descricao, .coluna_social .w-col-4 {
+    text-align: center;
+  }
+
+  .w-container.frases {
+    margin-top: 10vh;
+  }
+
+  .etapa {
+    width: 100%!important;
+  }
+}
+
+@media all and (max-width: 372px){
+  #gratuita {
+    margin-left: -7px;
+  }
+  #padrao {
+    margin-right: -7px;
+  }
+}

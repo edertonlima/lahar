@@ -1,0 +1,199 @@
+/* 
+    Document   : lahar.contrato
+    Created on : Apr 3, 2016, 7:06:43 PM
+    Author     : Mariana
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+a {
+    color: #000; 
+    font-size: 12px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.input{
+    width: 100% !important;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+}
+
+.sessao_contrato {
+  background-color: #0294ca;
+}
+
+.contrato {
+    background: white;
+    border: 0 none;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+.container_contrato {
+    padding-top: 40px;
+}
+
+.container_plano li {
+    border: 1px solid #eee;
+}
+
+.nav-tabsPlano{
+    list-style: none; 
+    margin-left: -20px;
+    width: 100%;
+}
+
+.nav-tabsPlano li{
+    padding: 0 !important;
+}
+
+.nav-tabsPlano > li a {
+    display: block;
+    border-radius: 0;
+    margin: 0;
+}
+
+.nav-tabsPlano li a {
+    padding: 20px 30px;
+    color: #053c50;
+}
+
+.container_plano li a, .container_plano li a{
+    background-color: #f3f3f3 !important;
+    color: #999 !important;
+}
+
+.container_plano li.active a, .container_plano li a:hover{
+    background-color: #fff !important;
+    color: #333 !important;
+}
+
+.panel-bodyPlano {
+    margin-top: 10px;
+    height: 350px;
+}
+
+.tab-contentPlano {
+    padding: 80px 0px;
+    border-top: none;
+}
+
+.tab-contentPlano > .active {
+    display: block !important;
+}
+
+.tab-contentPlano > .tab-pane {
+    display: none;
+}
+
+.div_title_planoContrato{
+  height: 60px;
+  cursor:pointer;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; 
+  background-color: #205163;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}   
+
+.desc_planoContrato{
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+.div_title_planoContrato input[type="radio"]{
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:280px;
+    opacity:0;    
+}
+
+.div_title_planoContratoSelect{
+    height: 60px;
+    cursor:pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    background-color: #12abde;
+}
+
+.desc_planoContratoSelect{
+    padding: 10px 20px;
+    cursor:pointer;
+    border-bottom: 1px solid #12abde;
+    border-left: 1px solid #12abde;
+    border-right: 1px solid #12abde;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.div_title_planoContratoSelect input[type="radio"]{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:280px;
+    opacity:0;    
+}
+
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.checkbox-inline, .radio-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^funcionalidades-lahar$ funcionalidades-lahar.php
+RewriteRule ^implementacao-lahar$ implementacao-lahar.php
+RewriteRule ^a-empresa$ a-empresa.php
+RewriteRule ^planos-e-precos$ planos-e-precos.php
+RewriteRule ^trabalhe-na-lahar$ trabalhe-na-lahar.php
+RewriteRule ^contato$ contato.php
+RewriteRule ^questionario$ questionario_diagnostico.php
+RewriteRule ^politica-privacidade-uso$ politica-privacidade-uso.php
+RewriteRule ^contrato-prestacao-servicos$ contrato-prestacao-servicos.php
+RewriteRule ^cases-de-sucesso$ cases-listagem.php
+RewriteRule ^parceria$ parcerias.php
+RewriteRule ^niveis-de-parcerias$ niveis-parcerias.php
+RewriteRule ^criar-conta$ trial.php
+RewriteRule ^assinar$ assinatura.php
+RewriteRule ^assinar-erro-salvar$ assinatura-erro-criar-empresa.php
+RewriteRule ^case-m3corp$ cases-m3corp.php
+RewriteRule ^case-lecom$ cases-lecom.php
+RewriteRule ^porque-escolher-lahar$ porque-escolher-lahar.php
+
+ErrorDocument 404 /404.php
+Options All -Indexes
